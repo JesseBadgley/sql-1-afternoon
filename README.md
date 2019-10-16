@@ -17,14 +17,23 @@ Any new tables or records that we add into the database will be removed after yo
     * Remember to not include the person_id because it should auto-increment.
 3. List all the people in the person table by height from tallest to shortest.
 4. List all the people in the person table by height from shortest to tallest.
+
 5. List all the people in the person table by age from oldest to youngest.
+
 6. List all the people in the person table older than age 20.
+
 7. List all the people in the person table that are exactly 18.
+
 8. List all the people in the person table that are less than 20 and older than 30.
+
 9. List all the people in the person table that are not 27 (Use not equals).
+
 10. List all the people in the person table where their favorite color is not red.
+
 11. List all the people in the person table where their favorite color is not red and is not blue.
+
 12. List all the people in the person table where their favorite color is orange or green.
+
 13. List all the people in the person table where their favorite color is orange, green or blue (use IN).
 14. List all the people in the person table where their favorite color is yellow or purple (use IN).
 
@@ -181,12 +190,16 @@ SELECT * FROM person WHERE favorite_color IN ( 'yellow', 'purple' )
 ### Instructions
 
 1. Create a table called orders that records: order_id, person_id, product_name, product_price, quantity.
+
 2. Add 5 orders to the orders table.
     * Make orders for at least two different people.
     * person_id should be different for different people.
 3. Select all the records from the orders table.
+
 4. Calculate the total number of products ordered.
+
 5. Calculate the total order price.
+
 6. Calculate the total order price by a single person_id.
 
 ### Solution
